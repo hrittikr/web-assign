@@ -1,0 +1,16 @@
+h1 {
+    color:aquamarine;
+    text-align:center;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
+p{
+    color:lightgray;
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    background-color: #1f8e6c;
+    margin: 20px;
+}
