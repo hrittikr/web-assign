@@ -16,7 +16,7 @@ p{
     display: flex;
     justify-content: normal;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #f8f9fa;
     align-items: left;
 
@@ -66,3 +66,5 @@ button{
     border-radius: 5px; 
     cursor: pointer;
 }
+
+  
