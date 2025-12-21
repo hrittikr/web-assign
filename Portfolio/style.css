@@ -58,7 +58,17 @@ p{
     right:170px;
     top: 170px;
     position: absolute;
-}
+    object-fit: cover;
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    filter: 
+           brightness(1.9)
+           contrast(1.2)
+              saturate(1.2);
+    image-rendering: crisp-edges;    
+
+              
+ }
 .name{
     color: #1793ec;
     font-weight: bold;
@@ -82,5 +92,18 @@ button{
     left: 90px;
 
 }
+.img-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    filter:
+            hdr(1.2)
+            contrast(1.1);
+            image-rendering: pixelated;
+            
 
+}
   
