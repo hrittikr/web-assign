@@ -4,12 +4,18 @@ h1{
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 230px;
+    left: 90px;
     
 }
 p{
     font-size: 18px;
     color: #555;
     margin-bottom: 20px;
+    position: absolute;
+    top: 290px;
+    left: 90px;
 }
 
 .navbar{
@@ -47,11 +53,16 @@ p{
     align-items: right;
     display: flex;
     justify-content: flex-end;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    right:150px;
+    top: 170px;
+    position: absolute;
 }
 .name{
     color: #1793ec;
+    font-weight: bold;
+    font-style: italic;
 }
 body{
     background-color: rgb(228, 238, 238);
@@ -64,8 +75,12 @@ button{
     color: white; 
     padding: 10px 20px; 
     border: none; 
-    border-radius: 5px; 
+    border-radius: 6px; 
     cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 90px;
+    
 }
 
   
