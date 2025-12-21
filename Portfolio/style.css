@@ -14,11 +14,11 @@ p{
 
 .navbar{
     display: flex;
-    justify-content: normal;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
     background-color: #f8f9fa;
-    align-items: left;
+    text-align: right;
 
 }
 .logo{
@@ -29,8 +29,8 @@ p{
 .nav-links{
     list-style: none;
     display: flex;
-    gap: 10px;
-    align-content:right;
+    gap: 20px;
+    margin: 0 auto;
 }
 .nav-links a{
     text-decoration: none;
@@ -45,7 +45,7 @@ p{
     height: 350px;
     align-items: right;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding-left: 16px;
     padding-right: 16px;
 }
