@@ -37,6 +37,7 @@ header {
     background: #fff;
     color: #111;
     border-radius: 5px;
+
 }
 
 /* Hero Section */
@@ -48,12 +49,15 @@ header {
 
 .hero span {
     color: #007bff;
+    font-weight: bold;
+
 }
 
 /* Skills Section */
 .skills {
     padding: 40px 20px;
     background: #ffffff;
+
 }
 
 .skills-container {
@@ -61,6 +65,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .skill-box {
@@ -69,18 +74,21 @@ header {
     padding: 20px 30px;
     border-radius: 8px;
     font-weight: bold;
+
 }
 
 /* Projects Section */
 .projects {
     padding: 40px 20px;
     background: #f4f4f4;
+
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+
 }
 
 .project-card {
@@ -96,6 +104,8 @@ footer {
     padding: 20px;
     background: #111;
     color: white;
+    position: relative;
+    bottom: 0;
 }
 
 /* Responsive Navbar (Media Query) */
@@ -106,5 +116,6 @@ footer {
         gap: 10px;
         text-align: center;
         padding-top: 10px;
+        
     }
 }
