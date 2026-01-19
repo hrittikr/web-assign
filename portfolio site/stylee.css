@@ -4,7 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
-
 /* Header */
 header {
     display: flex;
@@ -14,7 +13,6 @@ header {
     background: #111;
     color: #fff;
 }
-
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -119,6 +117,6 @@ footer {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
-        
+
     }
 }
