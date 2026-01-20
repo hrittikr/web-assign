@@ -281,3 +281,21 @@ button{
         font-size: medium;
     }
 }
+/* Skills Section */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.skill-item {
+    background: #f0f0f0;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.skill-item:hover {
+    transform: translateY(-5px);
+}
