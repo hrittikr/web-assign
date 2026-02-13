@@ -14,3 +14,13 @@ body {
     background-color: #1f8e6c;
     margin: 20px;
 }
+
+.header{
+    text-align: center;
+
+
+}
+.header:hover{
+    background-color: aliceblue;
+    
+}
