@@ -17,10 +17,11 @@ body {
 
 .header{
     text-align: center;
-
+    justify-content: center;
 
 }
 .header:hover{
     background-color: aliceblue;
+
     
 }
