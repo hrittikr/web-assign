@@ -7,7 +7,7 @@
     <title>Document</title>
  </head>
  <body>
-    <h1 style="color: blue;">Hello, World!</h1>
+    <h1 style="color: blue;">Hello, Hrittik World!</h1>
     <p style="font-size: 20px; color: green; text-align: center;">This is an example of inline CSS.</p>
  </body>
  </html>
